@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #1e1e2f;
+  color: white;
+  text-align: center;
+}
+
+header {
+  background-color: #222;
+  padding: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.api-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.api-card {
+  background-color: #292942;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.api-card h2 {
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+
+.api-card p {
+  margin: 5px 0;
+  font-size: 16px;
+  color: #ccc;
+}
+
+footer {
+  background-color: #222;
+  padding: 10px;
+  font-size: 14px;
+  margin-top: 20px;
+}
